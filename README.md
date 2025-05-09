@@ -6,5 +6,5 @@ An AI-powered web platform that helps users manage personal finances, track expe
 
 ## Creators
 
-- [Simon Tiphy](https://github.com/simon-tiphy)
-- [Samuel Lwanga](https://github.com/babyanonymouse)
+- [Simon Tiphy](https://github.com/simon-tiphy) - Backend
+- [Samuel Lwanga](https://github.com/babyanonymouse) - Frontend
