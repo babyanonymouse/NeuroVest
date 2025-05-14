@@ -4,7 +4,7 @@
 /* White mode (default) */
 @theme {
     --color-background: #F5F6FA;
-    --color-text: #070812;
+    --color-black: #070812;
     --color-primary: #B3B7E5;
     --color-secondary: #0950C3;
     --color-accent: #676FCB;
@@ -19,7 +19,6 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --color-background: #05060A;
-        --color-text: #EDEEF8;
         --color-primary: #2A2E3D;
         --color-secondary: #3C83F6;
         --color-accent: #5F69C4;
