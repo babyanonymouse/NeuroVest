@@ -1,1 +1,32 @@
+/* Import Tailwind */
 @import "tailwindcss";
+
+/* White mode (default) */
+@theme {
+    --color-background: #F5F6FA;
+    --color-text: #070812;
+    --color-primary: #B3B7E5;
+    --color-secondary: #0950C3;
+    --color-accent: #676FCB;
+    --color-surface: #FFFFFF;
+    --color-muted: #DFE3EC;
+    --color-hover-primary: #A0A4D6;
+    --color-hover-secondary: #003BA0;
+    --color-hover-accent: #575FB5;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: #05060A;
+        --color-text: #EDEEF8;
+        --color-primary: #2A2E3D;
+        --color-secondary: #3C83F6;
+        --color-accent: #5F69C4;
+        --color-surface: #1E1E2F;
+        --color-muted: #3A3F4F;
+        --color-hover-primary: #383C4F;
+        --color-hover-secondary: #2563EB;
+        --color-hover-accent: #4C58B0;
+    }
+}
