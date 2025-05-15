@@ -18,14 +18,14 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-background: #05060A;
-        --color-primary: #2A2E3D;
-        --color-secondary: #3C83F6;
-        --color-accent: #5F69C4;
-        --color-surface: #1E1E2F;
-        --color-muted: #3A3F4F;
-        --color-hover-primary: #383C4F;
-        --color-hover-secondary: #2563EB;
-        --color-hover-accent: #4C58B0;
+        --color-dark-background: #05060A;
+        --color-dark-primary: #2A2E3D;
+        --color-dark-secondary: #3C83F6;
+        --color-dark-accent: #5F69C4;
+        --color-dark-surface: #1E1E2F;
+        --color-dark-muted: #3A3F4F;
+        --color-dark-hover-primary: #383C4F;
+        --color-dark-hover-secondary: #2563EB;
+        --color-dark-hover-accent: #4C58B0;
     }
 }
