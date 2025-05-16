@@ -36,7 +36,7 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#">Learn More</a>
+          <a href="#" className="hover:text-hover-secondary">Learn More</a>
         </li>
       </ul>
     </nav>

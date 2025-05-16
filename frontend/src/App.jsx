@@ -1,11 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import ValueProposition from "./components/ValueProposition";
 
 const App = () => {
   return (
-    <div>
+    <main className="bg-background">
       <Navbar />
-    </div>
+      <Hero/>
+      <ValueProposition/>
+    </main>
   );
 };
 
