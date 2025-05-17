@@ -18,10 +18,10 @@ const Hero = () => {
           confident, informed decisions every day.
         </p>
         <div className="flex gap-4 mt-4">
-          <button className="bg-secondary text-white px-6 py-3 rounded-xl hover:bg-hover-secondary transition">
+          <button className="bg-secondary text-white px-6 py-3 rounded-full hover:bg-hover-secondary transition">
             Start Managing Now
           </button>
-          <button className="border border-accent text-accent px-6 py-3 rounded-xl hover:bg-hover-accent hover:text-white transition">
+          <button className="border border-accent text-accent px-6 py-3 rounded-full hover:bg-hover-accent hover:text-white transition">
             See How it Works
           </button>
         </div>

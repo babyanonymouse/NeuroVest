@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ValueProposition from "./components/ValueProposition";
+import HowItWorks from "./components/HowItWorks";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -9,6 +11,8 @@ const App = () => {
       <Navbar />
       <Hero/>
       <ValueProposition/>
+      <HowItWorks/>
+      <Testimonials/>
     </main>
   );
 };

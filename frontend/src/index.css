@@ -29,3 +29,7 @@
         --color-dark-hover-accent: #4C58B0;
     }
 }
+
+button {
+    cursor: pointer;
+}
