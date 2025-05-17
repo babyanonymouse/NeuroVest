@@ -4,7 +4,7 @@ import Arrowright from "../assets/arrow-right.png";
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-col max-w-6xl mx-auto mt-5">
+    <div className="flex flex-col max-w-6xl mx-auto px-5 py-5 gap-5">
       {/* head container */}
       <div className="flex justify-between">
         {/* left text */}
@@ -24,6 +24,57 @@ const Testimonials = () => {
             Next
             <img src={Arrowright} alt="Arrowright" className="inline w-6" />
           </button>
+        </div>
+      </div>
+
+      {/* right- cards container */}
+      <div className="flex gap-4 my-3 justify-center">
+        {/* card 1 */}
+        <div className="bg-surface flex flex-col p-8 gap-4 rounded-xl shadow-lg hover:shadow-2xl hover:cursor-pointer max-w-sm">
+          <div className="flex justify-between gap-2">
+            {/* avatar */}
+            <img src="" alt="user-avatar" />
+            {/* star rates */}
+            <div className="flex">
+              <img src="" alt="star" />
+              <img src="" alt="star" />
+              <img src="" alt="star" />
+              <img src="" alt="star" />
+              <img src="" alt="star" />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h2 className="text-xl font-medium">Floyd Miles</h2>
+            <p className="font-light text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              vel odio est fuga deleniti itaque quos nulla officia qui ex.
+            </p>
+          </div>
+        </div>
+
+        {/* card 2 */}
+        <div className="bg-surface flex flex-col p-8 gap-4 rounded-xl shadow-lg hover:shadow-2xl hover:cursor-pointer max-w-sm">
+          <div className="flex justify-between gap-2">
+            {/* avatar */}
+            <img src="" alt="user-avatar" />
+            {/* star rates */}
+            <div className="flex">
+              <img src="" alt="star" />
+              <img src="" alt="star" />
+              <img src="" alt="star" />
+              <img src="" alt="star" />
+              <img src="" alt="star" />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h2 className="text-xl font-medium">Floyd Miles</h2>
+            <p className="font-light text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              vel odio est fuga deleniti itaque quos nulla officia qui ex.
+            </p>
+          </div>
         </div>
       </div>
     </div>

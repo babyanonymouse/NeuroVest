@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import ValueProposition from "./components/ValueProposition";
 import HowItWorks from "./components/HowItWorks";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <ValueProposition/>
       <HowItWorks/>
       <Testimonials/>
+      <Footer/>
     </main>
   );
 };
